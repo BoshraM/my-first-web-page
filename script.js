@@ -161,3 +161,123 @@ document.getElementById('button_remove').addEventListener('click', (event) => {
   display_the_roll();
 
 });
+var price_984, totalprice1984, price_fraction, kite_price, number_1984, cartqty, number_fraction, number_kite, totalnumber1984, cartprice, totalnumberfraction, totalkitenumber, totalpricefraction, totalkiteprice;
+
+
+price_984 = [];
+totalprice1984 = [];
+number_1984 = [];
+totalnumber1984 = [];
+price_fraction = [];
+totalpricefraction = [];
+number_fraction = [];
+totalnumberfraction = [];
+number_kite = [];
+kite_price = [];
+totalkiteprice = [];
+totalkitenumber = [];
+cartprice = [];
+cartqty = [];
+let element_1984img = document.getElementById('1984img');
+element_1984img.setAttribute("src", 'https://images-na.ssl-images-amazon.com/images/I/41ygPDnvUxL._SX340_BO1,204,203,200_.jpg');
+let element_fractionimg = document.getElementById('fractionimg');
+element_fractionimg.setAttribute("src", 'https://images-na.ssl-images-amazon.com/images/I/51tA4MdkCAL._SX324_BO1,204,203,200_.jpg');
+let element_kiteimg = document.getElementById('kiteimg');
+element_kiteimg.setAttribute("src", 'https://images-na.ssl-images-amazon.com/images/I/51yHrgI1MXL._SX320_BO1,204,203,200_.jpg');
+
+
+document.getElementById('kite').addEventListener('click', (event) => {
+  kite_price.push(9);
+  number_kite.push(1);
+  cartprice.push(9);
+  cartqty.push(1);
+  let element_kite_number = document.getElementById('kite_number');
+  totalkitenumber.push(number_kite.shift());
+  element_kite_number.innerText = totalkitenumber.reduce((a,b) => a+b, 0);
+  let element_kite_price = document.getElementById('kite_price');
+  totalkiteprice.push(kite_price.shift());
+  element_kite_price.replaceChildren();
+  element_kite_price.innerText = totalkiteprice.reduce((a,b) => a+b, 0);
+
+});
+
+document.getElementById('fraction').addEventListener('click', (event) => {
+  price_fraction.push(9.3);
+  number_fraction.push(1);
+  cartprice.push(9.3);
+  cartqty.push(1);
+  let element_fraction_number = document.getElementById('fraction_number');
+  totalnumberfraction.push(number_fraction.shift());
+  element_fraction_number.innerText = totalnumberfraction.reduce((a,b) => a+b, 0);
+  let element_fraction_price = document.getElementById('fraction_price');
+  totalpricefraction.push(price_fraction.shift());
+  element_fraction_price.replaceChildren();
+  element_fraction_price.innerText = totalpricefraction.reduce((a,b) => a+b, 0);
+
+});
+
+document.getElementById('1984').addEventListener('click', (event) => {
+  price_984.push(8.5);
+  number_1984.push(1);
+  cartqty.push(1);
+  cartprice.push(8.5);
+  let element_1984_number = document.getElementById('1984_number');
+  totalnumber1984.push(number_1984.shift());
+  element_1984_number.innerText = totalnumber1984.reduce((a,b) => a+b, 0);
+  let element_1984_price = document.getElementById('1984_price');
+  totalprice1984.push(price_984.shift());
+  element_1984_price.replaceChildren();
+  element_1984_price.innerText = totalprice1984.reduce((a,b) => a+b, 0);
+
+});
+
+document.getElementById('removekite').addEventListener('click', (event) => {
+  if (!!totalkitenumber.length) {
+    cartqty.push(-1);
+    cartprice.push(-9);
+  }
+  let element_kite_number2 = document.getElementById('kite_number');
+  totalkitenumber.pop();
+  element_kite_number2.innerText = totalkitenumber.reduce((a,b) => a+b, 0);
+  let element_kite_price2 = document.getElementById('kite_price');
+  totalkiteprice.pop();
+  element_kite_price2.innerText = totalkiteprice.reduce((a,b) => a+b, 0);
+
+});
+
+document.getElementById('removefraction').addEventListener('click', (event) => {
+  if (!!totalnumberfraction.length) {
+    cartqty.push(-1);
+    cartprice.push(-9.3);
+  }
+  let element_fraction_number2 = document.getElementById('fraction_number');
+  totalnumberfraction.pop();
+  element_fraction_number2.innerText = totalnumberfraction.reduce((a,b) => a+b, 0);
+  let element_fraction_price2 = document.getElementById('fraction_price');
+  totalpricefraction.pop();
+  element_fraction_price2.innerText = totalpricefraction.reduce((a,b) => a+b, 0);
+
+});
+
+document.getElementById('remove1984').addEventListener('click', (event) => {
+  if (!!totalnumber1984.length) {
+    cartqty.push(-1);
+    cartprice.push(-8.5);
+  }
+  let element_1984_number2 = document.getElementById('1984_number');
+  totalnumber1984.pop();
+  element_1984_number2.innerText = totalnumber1984.reduce((a,b) => a+b, 0);
+  let element_1984_price2 = document.getElementById('1984_price');
+  totalprice1984.pop();
+  element_1984_price2.innerText = totalprice1984.reduce((a,b) => a+b, 0);
+
+});
+
+document.getElementById('cart').addEventListener('click', (event) => {
+  let element_total_number = document.getElementById('total_number');
+  element_total_number.replaceChildren();
+  element_total_number.innerText = cartqty.reduce((a,b) => a+b, 0);
+  let element_total_price = document.getElementById('total_price');
+  element_total_price.innerText = cartprice.reduce((a,b) => a+b, 0);
+
+});
