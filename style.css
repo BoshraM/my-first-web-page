@@ -42,9 +42,10 @@ head {
   position: absolute;
   top: 200px;
   right: 50px;
+  font-size: 15px;
 }
 #1984img {
-   font-size: 15px;
+   
   width: 100px;
   height: 200px;
 }
