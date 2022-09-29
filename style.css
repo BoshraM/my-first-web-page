@@ -47,26 +47,27 @@ head {
 #book1 {
   position: absolute;
   width: 400px;
-  height: 600px;
-  border: 3px solid #73AD21;
+  height: 650px;
+  border: 3px solid black;
     top: 50px;
   right: 250px;
 }
 #book2 {
   position: absolute;
   width: 400px;
-  height: 600px;
-  border: 3px solid #73AD21;
-    top: 700px;
+  height: 650px;
+  border: 3px solid black;
+    top: 725px;
   right: 250px;
 }
 #book3 {
   position: absolute;
   width: 400px;
-  height: 600px;
+  height: 650px;
   border: 3px solid black;
     top: 1350px;
   right: 250px;
+  background-color: white;
 }
 .c-site-head {
   text-align: center;
