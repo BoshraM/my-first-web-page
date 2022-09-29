@@ -50,23 +50,23 @@ head {
   height: 600px;
   border: 3px solid #73AD21;
     top: 50px;
-  right: 200px;
+  right: 250px;
 }
 #book2 {
   position: absolute;
   width: 400px;
   height: 600px;
   border: 3px solid #73AD21;
-    top: 1100px;
-  right: 50px;
+    top: 700px;
+  right: 250px;
 }
 #book3 {
   position: absolute;
   width: 400px;
   height: 600px;
-  border: 3px solid #73AD21;
-    top: 1800px;
-  right: 50px;
+  border: 3px solid black;
+    top: 1350px;
+  right: 250px;
 }
 .c-site-head {
   text-align: center;
