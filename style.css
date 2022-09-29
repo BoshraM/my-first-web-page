@@ -47,8 +47,15 @@ head {
 #book1 {
   position: absolute;
   width: 200px;
+  height: 300px;
+  border: 3px solid #73AD21;
+}
+#bookfirst {
+   position: absolute;
+  width: 150px;
   height: 100px;
   border: 3px solid #73AD21;
+  
 }
 .c-site-head {
   text-align: center;
