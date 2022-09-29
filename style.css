@@ -8,9 +8,12 @@ html,
 body {
  background-image: url(https://img.freepik.com/free-photo/top-view-background-beautiful-white-grey-brown-cream-blue-background_140725-72219.jpg?size=626&ext=jpg&ga=GA1.2.1326110928.1664485674);
   background-repeat: no-repeat;
+  
   margin: 0;
   height: 100%;
   font-family: sans-serif;
+  background-attachment: fixed;
+  background-size: cover;
   text-align: center;
   
 }
