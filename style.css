@@ -37,7 +37,7 @@ head {
 }
 #shop { 
   width: 700px;
-  height: 1400px;
+  height: 2000px;
      background-image: url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?size=626&ext=jpg&ga=GA1.2.1326110928.1664485674);
   position: absolute;
   top: 200px;
@@ -49,13 +49,24 @@ head {
   width: 400px;
   height: 600px;
   border: 3px solid #73AD21;
+    top: 300px;
+  right: 50px;
 }
-#bookfirst {
-   position: absolute;
-  width: 150px;
-  height: 100px;
+#book2 {
+  position: absolute;
+  width: 400px;
+  height: 600px;
   border: 3px solid #73AD21;
-  
+    top: 1100px;
+  right: 50px;
+}
+#book3 {
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  border: 3px solid #73AD21;
+    top: 1800px;
+  right: 50px;
 }
 .c-site-head {
   text-align: center;
