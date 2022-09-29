@@ -50,8 +50,8 @@ head {
 #image_carousel {
 text: center;
    position: absolute;
-  top: 800px;
- left: 100px;
+  top: 200px;
+ left: 800px;
 }
 #home-town {
   width:580px;
