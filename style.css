@@ -43,6 +43,10 @@ head {
   top: 200px;
   right: 100px;
 }
+#1984img {
+  width: 180px;
+  height: 300px;
+}
 .c-site-head {
   text-align: center;
   font-size: 40px;
