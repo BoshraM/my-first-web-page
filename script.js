@@ -281,3 +281,28 @@ document.getElementById('cart').addEventListener('click', (event) => {
   element_total_price.innerText = cartprice.reduce((a,b) => a+b, 0);
 
 });
+var images, round;
+
+
+let element_home_town = document.getElementById('home-town');
+element_home_town.replaceChildren();
+element_home_town.setAttribute("src", 'https://kurdistanhumanrights.org/fa/wp-content/uploads/2017/10/Pawe.jpg');
+images = ['https://i.pinimg.com/736x/ef/5a/0f/ef5a0fe3d2f97639b8434adfea3b5287--iran.jpg', 'https://pbs.twimg.com/media/CXvrLXqWwAE7tfJ.jpg', 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Winter_of_Paweh.jpg/800px-Winter_of_Paweh.jpg?20170323212257', 'https://theonearmedcrab.com/wp-content/uploads/2016/09/iran15_9_DSC03879.jpg', 'https://pbs.twimg.com/media/E1-KD60VUAAg9j-.jpg'];
+round = [];
+
+
+document.getElementById('next').addEventListener('click', (event) => {
+  images.push(images[0]);
+  let element_home_town2 = document.getElementById('home-town');
+  element_home_town2.replaceChildren();
+  element_home_town2.setAttribute("src", images.shift());
+
+});
+
+document.getElementById('previouse').addEventListener('click', (event) => {
+  images.unshift(images.slice(-1)[0]);
+  let element_home_town3 = document.getElementById('home-town');
+  element_home_town3.replaceChildren();
+  element_home_town3.setAttribute("src", images.pop());
+
+});
