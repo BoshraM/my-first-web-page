@@ -41,11 +41,12 @@ head {
      background-image: url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?size=626&ext=jpg&ga=GA1.2.1326110928.1664485674);
   position: absolute;
   top: 200px;
-  right: 100px;
+  right: 50px;
 }
 #1984img {
-  width: 180px;
-  height: 300px;
+   font-size: 15px;
+  width: 100px;
+  height: 200px;
 }
 .c-site-head {
   text-align: center;
