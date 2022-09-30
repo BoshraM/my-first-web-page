@@ -4,12 +4,12 @@
   You can make this window bigger. 
    ===================
 */
-
+/*
 const {
   core: { test, expect, run },
   prettify
 } = window.jestLite;
-
+*/
 /* =================
   FIND ELEMENTS
   These are all the elements we will look for.
