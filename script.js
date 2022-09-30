@@ -66,7 +66,7 @@ test("There are at least 500 words on the page", () => {
 
 const console = document.getElementById("tests");
 prettify.toHTML(run(), console);
-*/
+
 var roll, dice, total_dice, item;
 
 function randomInt(n) {
