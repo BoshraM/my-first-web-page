@@ -98,7 +98,7 @@ body {
   height: 650px;
   border: 3px solid black;
     top: 75px;
-  left: 50px;
+  left: 20px;
   background-color: white;
 }
 #book2 {
@@ -107,7 +107,7 @@ body {
   height: 650px;
   border: 3px solid black;
     top: 750px;
-  left: 50px;
+  left: 20px;
   background-color: white;
 }
 
@@ -117,7 +117,7 @@ body {
   height: 650px;
   border: 3px solid black;
     top: 1425px;
-  left: 50px;
+  left: 20px;
   background-color: white;
 }
 #total {
@@ -126,8 +126,8 @@ body {
   height: 75px;
   border: 3px solid black;
     top: 2100px;
-  left: 50px;
-  background-color: CYAN;
+  left: 20px;
+  background-color: white;
 }
 .c-site-head {
   text-align: center;
