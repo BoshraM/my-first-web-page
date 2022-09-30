@@ -52,8 +52,9 @@ body {
   height: 400px;
      background-image: url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?size=626&ext=jpg&ga=GA1.2.1326110928.1664485674);
   position: absolute;
-  top: 1200px;
-  left: 700px;
+   top: 750px;
+ left: 100px;
+ 
 
 }
 
@@ -128,8 +129,9 @@ head {
 #image_carousel {
 text: center;
    position: absolute;
-  top: 750px;
- left: 100px;
+   top: 1200px;
+  left: 700px;
+ 
 }
 #home-town {
   width:580px;
