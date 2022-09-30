@@ -15,6 +15,7 @@ const {
   These are all the elements we will look for.
    ===================
 */
+/*
 const getHeader = document.querySelectorAll("header"),
   getH1 = document.querySelectorAll("h1"),
   getSiteHeader = document.querySelectorAll(".c-site-header"),
@@ -25,7 +26,8 @@ const getHeader = document.querySelectorAll("header"),
   getIFrame = document.querySelectorAll("iframe"),
   getImage = document.querySelectorAll("img"),
   getWords = document.body.innerText;
-
+  
+*/
 /* =================
    ASSERTIONS 
    These are the things we check are true about your page.
@@ -33,6 +35,7 @@ const getHeader = document.querySelectorAll("header"),
    The tests will run every time you update your code.
    ===================
 */
+/*
 test("There is at least one header element", () => {
   expect(getHeader.length).toBeGreaterThanOrEqual(1);
 });
@@ -66,6 +69,7 @@ test("There are at least 500 words on the page", () => {
 
 const console = document.getElementById("tests");
 prettify.toHTML(run(), console);
+*/
 
 var roll, dice, total_dice, item;
 
