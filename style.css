@@ -49,7 +49,7 @@ head {
   width: 350px;
   height: 650px;
   border: 3px solid black;
-    top: 125px;
+    top: 75px;
   left: 50px;
   background-color: white;
 }
@@ -58,8 +58,8 @@ head {
   width: 350px;
   height: 650px;
   border: 3px solid black;
-    top: 800px;
-  left: 25px;
+    top: 750px;
+  left: 50px;
   background-color: white;
 }
 
@@ -68,8 +68,17 @@ head {
   width: 350px;
   height: 650px;
   border: 3px solid black;
-    top: 1475px;
-  left: 25px;
+    top: 1425px;
+  left: 50px;
+  background-color: white;
+}
+#total {
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  border: 3px solid black;
+    top: 2100px;
+  left: 50px;
   background-color: white;
 }
 .c-site-head {
