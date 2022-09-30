@@ -17,6 +17,16 @@ body {
   text-align: center;
   
 }
+#cv {
+  text-align: center;
+  width: 500px;
+  height: 400px;
+     background-image: url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?size=626&ext=jpg&ga=GA1.2.1326110928.1664485674);
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  
+}
 #section1 {
   text-align: center;
   width: 500px;
@@ -106,7 +116,7 @@ text: center;
   border-color: #fff;
   border-style: solid;
   border-width: 3px;
-  border-radius: 50%;
+
   margin: 10px 0px 20px 0px;
 }
 
