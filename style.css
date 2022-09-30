@@ -36,7 +36,7 @@ head {
   height: 100px;
 }
 #shop { 
-  width: 600px;
+  width: 700px;
   height: 2100px;
      background-image: url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?size=626&ext=jpg&ga=GA1.2.1326110928.1664485674);
   position: absolute;
@@ -50,7 +50,7 @@ head {
   height: 650px;
   border: 3px solid black;
     top: 50px;
-  right: 270px;
+  right: 250px;
   background-color: white;
 }
 }
