@@ -58,7 +58,7 @@ head {
   width: 350px;
   height: 650px;
   border: 3px solid black;
-    top: 50px;
+    top: 725px;
   right: 100px;
   background-color: white;
 }
@@ -68,8 +68,8 @@ head {
   width: 400px;
   height: 650px;
   border: 3px solid black;
-    top: 1350px;
-  right: 270px;
+    top: 1400px;
+  right: 100px;
   background-color: white;
 }
 .c-site-head {
