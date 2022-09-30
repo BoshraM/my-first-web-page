@@ -49,8 +49,8 @@ head {
   width: 350px;
   height: 650px;
   border: 3px solid black;
-    top: 50px;
-  right: 100px;
+    top: 125px;
+  left: 50px;
   background-color: white;
 }
 #book2 {
@@ -58,8 +58,8 @@ head {
   width: 350px;
   height: 650px;
   border: 3px solid black;
-    top: 725px;
-  right: 100px;
+    top: 800px;
+  left: 25px;
   background-color: white;
 }
 
@@ -68,8 +68,8 @@ head {
   width: 350px;
   height: 650px;
   border: 3px solid black;
-    top: 1400px;
-  right: 100px;
+    top: 1475px;
+  left: 25px;
   background-color: white;
 }
 .c-site-head {
