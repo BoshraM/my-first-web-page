@@ -34,6 +34,7 @@ body {
 head {
    width: 100%;
   height: 100px;
+  top: 75px;
 }
 #shop { 
   width: 450px;
@@ -96,8 +97,8 @@ head {
 #image_carousel {
 text: center;
    position: absolute;
-  top: 150px;
- left: 700px;
+  top: 750px;
+ left: 100px;
 }
 #home-town {
   width:580px;
