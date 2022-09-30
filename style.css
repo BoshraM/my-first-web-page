@@ -137,6 +137,7 @@ text: center;
   border-color: #fff;
   border-style: solid;
   border-width: 3px;
+  text-align: center;
 
   margin: 10px 0px 20px 0px;
 }
@@ -149,7 +150,7 @@ text: center;
   font-size: 50px:
 }
 .iframe{
-  width: 1200px;
+  width: 700px;
 }
 .c-site-footer{
    font-size: 30px;
