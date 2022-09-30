@@ -56,11 +56,11 @@ head {
 }
 #book2 {
   position: absolute;
-  width: 400px;
+  width: 350px;
   height: 650px;
   border: 3px solid black;
-    top: 725px;
-  right: 270px;
+    top: 50px;
+  right: 100px;
   background-color: white;
 }
 }
