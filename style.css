@@ -36,11 +36,11 @@ head {
   height: 100px;
 }
 #shop { 
-  width: 500px;
-  height: 2100px;
+  width: 450px;
+  height: 2200px;
      background-image: url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?size=626&ext=jpg&ga=GA1.2.1326110928.1664485674);
   position: absolute;
-  top: 150px;
+  top: 100px;
   right: 25px;
   font-size: 15px;
 }
@@ -65,7 +65,7 @@ head {
 
 #book3 {
   position: absolute;
-  width: 400px;
+  width: 350px;
   height: 650px;
   border: 3px solid black;
     top: 1400px;
