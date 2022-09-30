@@ -65,12 +65,12 @@ body {
 }
 #head1 {
    width: 1100PX;
-  height: 100px;
-  top: 25px;
-  background-image: url(https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?size=626&ext=jpg&ga=GA1.2.1326110928.1664485674);
+  height: 150x;
+ 
+  background-image: url(https://bortexgroupholdings.com/wp-content/uploads/revslider/home-1/h1-slide1-background.jpg);
   position: absolute;
   top: 25px;
-  left: 50px;
+  left: 100px;
 }
 #game {
    text-align: center;
