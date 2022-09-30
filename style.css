@@ -146,7 +146,11 @@ text-align: center;
   height:400px;
  
 }
-
+#home-town {
+  width:500px;
+  height:400px;
+ 
+}
 
 #page-h1 {
  color: red;
