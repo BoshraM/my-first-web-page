@@ -65,11 +65,11 @@ body {
 }
 #head1 {
    width: 1100PX;
-  height: 150x;
+  height: 140x;
  
   background-image: url(https://bortexgroupholdings.com/wp-content/uploads/revslider/home-1/h1-slide1-background.jpg);
   position: absolute;
-  top: 40px;
+  top: 60px;
   left: 100px;
 }
 #game {
